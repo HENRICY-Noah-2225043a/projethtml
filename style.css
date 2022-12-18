@@ -1,0 +1,104 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  overflow: scroll;
+}
+
+body.acceuil{
+  background-image: url("pics/cool-background.png");
+  text-align: center;
+  color: white;
+}
+
+body.Chris{
+  background-image:url("https://undsgn.com/wp-content/uploads/2018/04/ltotbngnzzu.jpg");
+  background-size: cover;
+  text-align: center;
+  color: white;
+}
+
+body.Noah{
+  background-image: url("https://undsgn.com/wp-content/uploads/2018/04/ltotbngnzzu.jpg");
+  text-align: center;
+  color: white;
+}
+
+body.formulaire{
+  background-image:url("https://coolbackgrounds.io/images/backgrounds/black/black-triangle-b9cb7263.jpg");
+  color: white;
+}
+
+h1{
+  text-align: center;
+  text-shadow: #2348DE 2px 5px;
+}
+
+h1.color{
+  color: #B11F0E
+}
+
+h2.color{
+  color: #2348DE
+}
+
+.pic{
+  max-width: 25%;
+  height: auto;
+}
+
+p1{
+  text-align: center;
+}
+
+.topnav {
+  background-color: #333;
+  overflow: hidden;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 1% 5%;
+  text-decoration: none; 
+  font-size: 17px;
+  font-family:Trebuchet MS;
+  position: relative;
+}
+
+.topnav2 a {
+  float: left;
+  color: #3F5ED5;
+  text-align: center;
+  padding: 1% 5%;
+  text-decoration: none; 
+  font-size: 17px;
+  font-family:Trebuchet MS;
+  position: relative;
+}
+
+.topnav a:hover {
+  background-color: #5dd;
+  color: black;
+  position: relative;
+}
+
+.topnav2 a:hover {
+  background-color: #5dd;
+  color: black;
+  position: relative;
+}
+
+.topnav a.active {
+  background-color: #04AA6D;
+  color: white;
+  position: relative;
+}
+
+a{
+  color: red;
+}
+
+(display: flex; 
+flex: wrap;)
